@@ -1,0 +1,52 @@
+@media(max-width: 768px){
+    .arrive_titleh1 {
+        font-size: 45px;
+    }
+    .collection_qualification ul li {
+        font-size: 14px;
+    }
+    .collection_qualification ul li i {
+        margin-right: 5px;
+    }
+    .v_button button {
+        padding: 5px 10px;
+    }
+    .all_new h4 {
+        font-size: 25px;
+    }
+    .all_new h2 {
+        font-size: 32px;
+    }
+    .usefull_links h2 {
+        font-size: 18px;
+    }
+    .copyright h4 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:576px){
+    .nav_button button {
+        display: none;
+    }
+    .header_content h1 {
+        font-size: 50px;
+    }
+    .header_content h2 {
+        font-size: 28px;
+    }
+    .arrive_titleh1 {
+        font-size: 35px;
+    }
+    .copyright {
+        justify-content: center !important;
+    }
+    .social ul {
+        justify-content: center;
+    }
+}
+@media(max-width: 475px){
+    .video_details h2 {
+        font-size: 25px;
+    }
+}

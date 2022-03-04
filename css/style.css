@@ -1,0 +1,1040 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header part start here  */
+header{
+
+    background-image: url(../images/arives\ bike-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+header::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50%;
+    background: #0000008c;
+    z-index: 0;
+
+}
+header::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 50%;
+    background: #9f3733c7;
+}
+.navbar-light .navbar-brand {    
+    z-index: 99;
+}
+.navbar-nav {    
+    z-index: 99;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0px !important;
+    margin-right: 10px;
+    position: relative;
+    padding: 0px 10px !important;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    padding: 0px 10px !important;
+    background: #111;
+}
+.nav_button {
+    z-index: 1;
+}
+.nav_button button{
+
+border: none;
+
+text-transform: uppercase;
+
+font-size: 18px;
+
+padding: 10px 20px;
+
+transition: .4s all ease-in-out;
+}
+.nav_button button:hover{
+    background: #000;
+    color: #ffffff;
+}
+.header_content {
+}
+.header_content h2{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 30px;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.header_content  h1{
+
+font-family: 'Racing Sans One', cursive;
+
+color: #fff;
+
+font-size: 75px;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.header_content h3{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 25px;
+
+margin: 0px;
+
+margin-bottom: 20px;
+}
+.header_content ul{
+    
+list-style: none;
+    
+padding: 0px;
+}
+.header_content ul li{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 17px;
+}
+.header_content ul li i{
+
+height: 20px;
+
+width: 20px;
+
+margin-right: 10px;
+
+margin-bottom: 10px;
+}
+.header_content button{
+    
+background: #df453e;
+    
+color: #fff;
+    
+border: none;
+    
+padding: 10px 25px;
+    
+text-transform: capitalize;
+    
+margin-top: 25px;
+}
+.header_content button:hover{
+    
+    background: #b93a33;
+}
+.navbar-light .navbar-nav .nav-link::before{
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+    color: #000
+}
+
+.navbar-light .navbar-nav .nav-link:active:after {
+    background: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before {
+    opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.navigation span i{
+
+}
+
+
+
+
+/* header part end here  */
+
+
+/* arrive section start here  */
+.arrive_title{
+
+}
+.arrive_titleh1{
+    font-size: 58px;font-weight: 400;font-family: 'Racing Sans One',display;text-transform: uppercase;color: #111;
+}
+.arrive_content{
+
+padding: 10px;
+}
+.arrive_content img{
+}
+.arrive_content h2{
+
+font-size: 16px;
+
+margin-bottom: 7px;
+
+display: block;
+
+line-height: 1.3;
+
+opacity: .6;
+
+text-transform: capitalize;
+
+margin-top: 30px;
+}
+.arrive_content h1{
+
+font-weight: 400;
+
+font-family: 'Racing Sans One',display;
+
+text-transform: uppercase;
+
+font-size: 20px;
+
+color: #111;
+}
+.arrive_content p{
+
+font-family: 'Racing Sans One', cursive;
+
+color: #5d5555;
+}
+.star_rating {
+
+color: #eb5d58;
+
+font-size: 15px;
+
+margin-bottom: 10px;
+}
+.star_rating i{
+    
+}
+.owl-dots .owl-dot span:active{
+   
+
+height: 10px;
+
+width: 10px;
+
+background: transparent;
+
+margin-left: 10px;
+
+border-radius: 50%;
+background: rgb(173, 169, 169);
+
+}
+.owl-dots{
+    text-align: center;
+}
+
+.owl-dots .owl-dot span{
+
+display: block;
+
+height: 10px;
+
+width: 10px;
+
+background: transparent;
+
+margin-left: 10px;
+
+border-radius: 50%;
+
+border: 1px solid #837676;
+}
+/* arrive section end here  */
+
+
+/* collection section start here  */
+.collection{
+    position: relative;
+    background-image: url(../images/background-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+.collection::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+99&0.4+0,0.3+50,0.9+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.89) 99%, rgba(0,0,0,0.9) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.89) 99%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.89) 99%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.collection h2{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 20px;
+
+text-transform: uppercase;
+}
+.collection h1{
+
+font-family: 'Racing Sans One', cursive;
+
+color: #fff;
+
+font-size: 42px;
+
+margin-top: 20px;
+
+text-transform: capitalize;
+}
+.collection p{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 18px;
+
+margin-top: 30px;
+
+text-transform: capitalize;
+}
+.collection button{
+
+border: none;
+
+background: #a41e1e;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 15px 30px;
+
+margin-top: 35px;
+}
+.collection_qualification{
+
+display: flex;
+
+overflow: hidden;
+
+justify-content: space-between;
+}
+.collection_qualification ul{
+
+list-style: none;
+
+padding: 0px;
+
+margin-top: 25px;
+}
+.collection_qualification ul li {
+
+color: #fff;
+
+text-transform: capitalize;
+
+font-size: 16px;
+}
+.collection_qualification ul li i{
+
+height: 20px;
+
+width: 20px;
+
+margin-right: 10px;
+
+color: #9b1313;
+}
+/* collection section end here  */
+
+/* city bike collection start here  */
+.collection_citybike{
+    position: relative;
+    background-image: url(../images/background-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+.collection_citybike::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+99&0.4+0,0.3+50,0.9+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.89) 99%, rgba(0,0,0,0.9) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.89) 99%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.89) 99%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    min-height: 100vh;
+}
+.collection_citybike h2{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 20px;
+
+text-transform: uppercase;
+}
+.collection_citybike h1{
+
+font-family: 'Racing Sans One', cursive;
+
+color: #fff;
+
+font-size: 42px;
+
+margin-top: 20px;
+
+text-transform: capitalize;
+}
+.collection_citybike p{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 18px;
+
+margin-top: 30px;
+
+text-transform: capitalize;
+}
+.collection_citybike button{
+
+border: none;
+
+background: #a41e1e;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 15px 30px;
+
+margin-top: 35px;
+}
+/* city bikes .collection end here  */
+
+/* speacial bike section start here  */
+
+.collection_speacial{
+    position: relative;
+    background-image: url(../images/background-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+}
+.collection_speacial::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+99&0.4+0,0.3+50,0.9+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.89) 99%, rgba(0,0,0,0.9) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.89) 99%,rgba(0,0,0,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.89) 99%,rgba(0,0,0,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#e6000000',GradientType=0 ); /* IE6-9 */
+
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.collection_speacial h2{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 20px;
+
+text-transform: uppercase;
+}
+.collection_speacial h1{
+
+font-family: 'Racing Sans One', cursive;
+
+color: #fff;
+
+font-size: 42px;
+
+margin-top: 20px;
+
+text-transform: capitalize;
+}
+.collection_speacial p{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 18px;
+
+margin-top: 30px;
+
+text-transform: capitalize;
+}
+.collection_speacial button{
+
+border: none;
+
+background: #a41e1e;
+
+color: #fff;
+
+text-transform: uppercase;
+
+padding: 15px 30px;
+
+margin-top: 35px;
+}
+.collection button:hover{
+    transition: .4s all;
+    background: #7a1717;
+}
+    
+    
+/* speacial bikes collection end here  */
+
+/* why choose section start here  */
+.why_choose{
+    
+
+}
+.why_choose_content:hover:before{
+    height: 100%;
+}
+.why_choose_content::before{
+    content: '';
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.1+0,0.8+100 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#cc000000',GradientType=0 ); /* IE6-9 */
+    transition: .4s all ease-in-out;
+}
+.why_choose_content {
+    position: relative;
+    height: 100%;
+}
+.why_choose_content img{
+    
+height: 100%;
+}
+.why_choose_content:hover .why_choose_content_title,.why_choose_content:hover .why_choose_content_title_small{
+    bottom: 30px;    
+    opacity: 1;
+}
+.why_choose_content_title{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.why_choose_content_title_small {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: .4s all ease-in-out;
+}
+.why_choose_content_title_small h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 25px;
+}
+.why_choose_content_title h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Racing Sans One', cursive;
+    font-size: 32px;
+}
+.why_choose_content_title p{
+    color: #fff;
+    text-transform: none;
+    font-family: 'Racing Sans One', cursive;
+    padding-right: 20px;
+}
+.collection_citybike button:hover{
+    transition: .4s all;
+    background: #751414;
+}
+/* why choose section end here  */
+
+/* accessories section start here  */
+.accosories_content{
+
+padding: 10px;
+}
+.accosories_content h2{
+    font-size: 16px;
+    margin-bottom: 7px;
+    line-height: 1.3;
+    opacity: .6;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.accosories_content h1{
+    font-weight: 400;
+    font-family: 'Racing Sans One',display;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #111;
+}
+.accosories_content p{    
+    font-family: 'Racing Sans One', cursive;    
+    color: #5d5555;
+}
+.view_all{
+    text-align: center;
+}
+.view_all button{
+    border: none;
+    background: #df453e;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .4s all ease-in-out;
+}
+.view_all button:hover{
+    background: #8b2a25;
+}
+.collection_speacial button:hover {
+    transition: .4s all;
+    background: #741111;
+}
+/* accessories section end here  */
+
+/* join gorup section start here  */
+.join_group{
+
+}
+.join_group_title{
+    font-size: 58px;
+    font-weight: 400;
+    font-family: 'Racing Sans One',display;
+    text-transform: uppercase;
+}
+.video{
+
+text-align: center;
+
+position: relative;
+
+margin-top: 30px;
+
+margin-bottom: 30px;
+}
+.video button{
+
+position: absolute;
+
+bottom: 28%;
+
+left: 23%;
+
+transform: translate(-28%,-23%);
+
+border: none;
+
+background: transparent;
+
+color: #fff;
+
+font-size: 31px;
+
+border: 5px solid #fff;
+
+height: 60px;
+
+width: 60px;
+
+justify-content: center;
+
+align-items: center;
+
+border-radius: 50%;
+}
+.video video{position: relative;margin: auto;width: 90%;}
+.video-container{
+
+}
+.video_details{
+
+position: absolute;
+
+left: 30%;
+
+bottom: 11%;
+
+transform: translate(-30%,-11%);
+}
+.video_details h2{
+
+color: #fff;
+
+font-family: 'Racing Sans One', cursive;
+
+font-size: 40px;
+}
+.v_title{
+    margin-left: 28px;
+    margin-top: 25px;
+}
+.v_title h2{
+    font-size: 32px;
+    font-family: 'Racing Sans One',display;
+    text-transform: uppercase;
+}
+.v_title p{
+    font-weight: 400;
+    margin-top: 20px;
+}
+.v_button{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin-top: 15%;
+}
+.v_button button{
+
+border: none;
+
+background: #ce0000;
+
+color: #fff;
+
+padding: 15px 35px;
+
+text-transform: uppercase;
+
+font-weight: 600;
+}
+.v_button button:hover {
+    transition: .4s all;
+    background: #810b0b;
+}
+
+/* join group section end here  */
+
+/* all new section start here  */
+.all_new{
+    position: relative;
+    background-image: url(../images/background-4.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+.all_new::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,000000+100&0.3+0,0.4+50,0.95+95 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0.3) 0%, rgba(15,44,77,0.4) 50%, rgba(1,4,8,0.95) 95%, rgba(0,0,0,0.95) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0.3) 0%,rgba(15,44,77,0.4) 50%,rgba(1,4,8,0.95) 95%,rgba(0,0,0,0.95) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0.3) 0%,rgba(15,44,77,0.4) 50%,rgba(1,4,8,0.95) 95%,rgba(0,0,0,0.95) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d1e5799', endColorstr='#f2000000',GradientType=0 ); /* IE6-9 */
+
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+}
+.all_new h4{
+    font-size: 32px;
+    font-family: 'Racing Sans One',display;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.all_new h2{
+    font-size: 58px;
+    font-weight: 400;
+    font-family: 'Racing Sans One',display;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.all_new p{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0px 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.all_new button{
+    font-size: 15px;
+    padding: 15px 30px;
+    color: #fff;
+    text-align: center;
+    border: none;
+    background: #cc0e0e;
+    text-transform: uppercase;
+}
+.all_new button:hover{
+    transition: .4s all;
+    background: #990000;
+}
+.all_content{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* all new section end here  */
+
+/* footer part start here  */
+footer{background: #161616;}
+.img_foot{
+
+}
+.img_foot img{
+
+}
+.usefull_links{
+
+}
+.usefull_links h2{
+
+color: #fff;
+
+font-family: 'Racing Sans One',display;
+
+text-transform: uppercase;
+
+font-weight: 400;
+
+margin-bottom: 25px;
+}
+.usefull_links ul{
+
+list-style: none;
+
+padding: 0px;
+}
+.usefull_links ul li{
+
+margin-bottom: 5px;
+
+text-transform: capitalize;
+}
+.usefull_links ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-weight: 600;
+}
+.copyright{
+
+display: flex;
+
+justify-content: start;
+
+align-items: center;
+}
+.copyright h4{
+
+color: #fff;
+
+font-size: 20px;
+}
+.social{} 
+.social ul{
+
+list-style: none;
+
+padding: 0px;
+
+display: flex;
+
+justify-content: end;
+}
+.social ul li{
+
+margin-left: 10px;
+}
+.social ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+margin-left: 20px;
+}
+.social ul li a i{
+    
+height: 28px;
+    
+width: 28px;
+    
+display: flex;
+    
+justify-content: center;
+    
+align-items: center;
+    
+font-size: 19px;
+}
+.copyright_social{
+    
+border-top: 2px solid;
+}
+.social ul li a i:hover{
+    transition: .4s all;
+    color: rgb(158, 17, 17);
+}
+.usefull_links ul li a:hover{
+    transition: .4s all;
+    color: #9b1313;
+}
+/* footer part end  here  */
+
+
+/* back to top start here  */
+
+
+.menu {
+    overflow-y: scroll;
+    width: 150px;
+    text-align: left;
+    height: 478px;
+  }
+  #toTop {
+    bottom: 0;
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.05);
+  }
+/* back to top end here  */
+
+.backtop{
+    position: fixed;
+    right: 70px;
+    bottom: 70px;
+    cursor: pointer;
+    color: #85ff00 !important;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    background: #111;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 12px;
+    z-index: 99;
+}
+.backtop i{
+    font-size: 40px;
+    color: #fff;
+}
